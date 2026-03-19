@@ -22,10 +22,11 @@ body {
   color: var(--text-main);
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 40px 0;
   background: #05070a;
-  overflow: hidden;
+  overflow-y: auto;
 }
 
 /* RAINING LEAVES BACKGROUND */
